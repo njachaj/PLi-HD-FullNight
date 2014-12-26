@@ -2354,14 +2354,14 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 
 	<screen name="CurrentRemoteTV" position="fill" flags="wfNoBorder"> <!--remote info -->
 		<panel name="PigTemplate"/>
-		<eLabel text="Remote Player" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
+		<!--eLabel text="Remote Player" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/-->
 		<widget name="text" position="590,110" zPosition="1" size="670,500" font="Regular;20" halign="center" valign="center"/>
 	</screen>
 
 	<screen name="PartnerboxEntryConfigScreen" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="ButtonTemplate_4"/>
-		<eLabel text="Edit Entry" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
+		<!--eLabel text="Edit Entry" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/-->
 		<widget name="HelpWindow" pixmap="skin_default/vkey_icon.png" position="45,400" zPosition="1" size="1,1" transparent="1" alphatest="on"/>
 		<widget source="VKeyIcon" render="Pixmap" pixmap="PLi-HD-FullNight/buttons/key_text.png" position="65,682" zPosition="10" size="35,25" transparent="1" alphatest="on"/>
 		<widget name="config" scrollbarMode="showOnDemand" position="590,110" size="670,500" transparent="1"/>
@@ -2370,7 +2370,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 	<screen name="PartnerboxEntriesListConfigScreen" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="ButtonTemplate_4"/>
-		<eLabel text="List of Entries" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
+		<!--eLabel text="List of Entries" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/-->
 		<widget name="name" position="590,110" size="100,24" font="Regular;20" backgroundColor="secondBG" transparent="1"/>
 		<widget name="ip" position="710,110" size="150,24" font="Regular;20" backgroundColor="secondBG" transparent="1"/>
 		<widget name="port" position="860,110" size="100,24" font="Regular;20" backgroundColor="secondBG" transparent="1"/>
@@ -2381,7 +2381,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 	<screen name="PartnerboxSetup" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="ButtonTemplate_RGY"/>
-		<eLabel text="Partnerbox Setup" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
+		<!--eLabel text="Partnerbox Setup" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/-->
 		<widget name="config" scrollbarMode="showOnDemand" position="590,110" size="670,500" transparent="1"/>
 	</screen>
 
@@ -2394,7 +2394,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 
 	<screen name="RemoteTimerBouquetList" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
-		<eLabel text="Choose bouquet" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
+		<!--eLabel text="Choose bouquet" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/-->
 		<widget name="text" position="590,110" size="670,510" zPosition="1" font="Regular;26" halign="center" valign="center"/>
 		<widget name="bouquetlist" position="590,110" size="670,510" font="Regular;26" zPosition="2" scrollbarMode="showOnDemand"/>
 	</screen>
@@ -2402,7 +2402,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 	<screen name="RemoteTimer" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="ButtonTemplate_4"/>
-		<eLabel text="RemoteTimer Timerlist" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
+		<!--eLabel text="RemoteTimer Timerlist" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/-->
 		<widget name="text" position="590,110" size="670,490" zPosition="1" font="Regular;20" valign="center" halign="center"/>
 		<widget name="timerlist" position="590,110" size="670,490" zPosition="2" scrollbarMode="showOnDemand"/>
 	</screen>
@@ -2410,7 +2410,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 	<screen name="RemoteTimerEPGList" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="ButtonTemplate_4"/>
-		<eLabel text="EPG Selection" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
+		<!--eLabel text="EPG Selection" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/-->
 		<widget name="text" position="590,110" size="670,500" zPosition="1" font="Regular;20" valign="center" halign="center"/>
 		<widget name="epglist" position="590,110" size="670,500" zPosition="2" scrollbarMode="showOnDemand"/>
 	</screen>
@@ -2418,7 +2418,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 	<screen name="RemoteTimerChannelList" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="ButtonTemplate_4"/>
-		<eLabel text="Bouquet List" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
+		<!--eLabel text="Bouquet List" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/-->
 		<widget name="text" position="590,110" size="670,490" zPosition="1" font="Regular;26" valign="center" halign="center"/>
 		<widget name="channellist" position="590,110" size="670,490" font="Regular;26" zPosition="2" scrollbarMode="showOnDemand"/>
 	</screen>
@@ -2434,7 +2434,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 	<screen name="RemoteTimerEntry" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="CancelOkTemplate"/>
-		<eLabel text="Timer entry" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
+		<!--eLabel text="Timer entry" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/-->
 		<widget name="config" position="590,110" size="670,420" itemHeight="28" scrollbarMode="showOnDemand"/>
 	</screen>
 
