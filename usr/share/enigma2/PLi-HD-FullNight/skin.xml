@@ -16,7 +16,7 @@
 		<font name="Fixed" filename="andale.ttf" scale="100"/>
 	</fonts>
 
-	<!-- Colors -->
+	<!-- Parameters -->
 
 	<parameters>
 		<parameter name="AboutHddSplit" value="1"/>
