@@ -452,7 +452,7 @@
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="185,642" size="70,30" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="foreground" font="Regular;24">
 			<convert type="EventTime">StartTime</convert>
-			<convert type="ClockToText">Default</convert>
+			<convert type="ClockToText">Default;Proportional</convert>
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="270,642" size="690,30" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="foreground" noWrap="1" font="Regular;24">
 			<convert type="EventName">Name</convert>
@@ -463,7 +463,7 @@
 		</widget>
 		<widget source="session.Event_Next" render="Label" position="185,672" size="70,30" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="grey" font="Regular;24">
 			<convert type="EventTime">StartTime</convert>
-			<convert type="ClockToText">Default</convert>
+			<convert type="ClockToText">Default;Proportional</convert>
 		</widget>
 		<widget source="session.Event_Next" render="Label" position="270,672" size="690,30" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="grey" noWrap="1" font="Regular;24">
 			<convert type="EventName">Name</convert>
@@ -1045,7 +1045,7 @@
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="195,120" size="70,30" transparent="1" zPosition="1" foregroundColor="foreground" font="Regular;24" haligh="left">
 			<convert type="EventTime">StartTime</convert>
-			<convert type="ClockToText">Default</convert>
+			<convert type="ClockToText">Default;Proportional</convert>
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="270,120" size="640,30" transparent="1" zPosition="1" foregroundColor="foreground" noWrap="1" font="Regular;24">
 			<convert type="EventName">Name</convert>
@@ -1056,7 +1056,7 @@
 		</widget>
 		<widget source="session.Event_Next" render="Label" position="195,150" size="70,30" transparent="1" zPosition="1" foregroundColor="foreground" font="Regular;24" haligh="left">
 			<convert type="EventTime">StartTime</convert>
-			<convert type="ClockToText">Default</convert>
+			<convert type="ClockToText">Default;Proportional</convert>
 		</widget>
 		<widget source="session.Event_Next" render="Label" position="270,150" size="640,30" transparent="1" zPosition="1" foregroundColor="foreground" noWrap="1" font="Regular;24">
 			<convert type="EventName">Name</convert>
