@@ -619,22 +619,22 @@
 		<panel name="ButtonTemplate_4"/>
 		<panel name="KeyMenuInfoTemplate"/>
 		<widget name="list" position="500,98" size="770,560" itemHeight="28" picServiceEventProgressbar="PLi-HD-FullNight/window/progress.png" progressbarBorderWidth="1"  progressbarHeight="10" colorEventProgressbarBorder="darkgrey" colorEventProgressbarBorderSelected="darkgrey" colorServiceDescription="yellowsoft" transparent="1" serviceNumberFont="Regular;22" scrollbarMode="showOnDemand" serviceInfoFont="Regular;20" serviceNameFont="Regular;22" serviceItemHeight="28" foregroundColorServiceNotAvail="#656565" backgroundColorMarked="#656565" colorServiceDescriptionFallback="yellowsoft" colorServiceDescriptionSelectedFallback="yellowsoft" colorFallbackItem="#aaaaaa" colorServiceSelectedFallback="yellowsoft" />
-		<widget source="ServiceEvent" render="Label" position="362,390" size="100,22" backgroundColor="secondBG" transparent="1" zPosition="1" foregroundColor="secondFG" font="Regular;19" halign="right">
-			<convert type="ServiceOrbitalPosition"/>
+		<widget source="ServiceEvent" render="Label" position="20,345" size="440,22" foregroundColor="transponderinfo" font="Regular;19" valign="center" halign="left" transparent="1" zPosition="1">
+			<convert type="ServiceName">TransponderInfo</convert>
 		</widget>
-		<widget source="ServiceEvent" render="Label" position="20,360" size="440,42" transparent="1" foregroundColor="secondFG" noWrap="1" font="Regular;21">
-			<convert type="EventName">Name</convert>
-		</widget>
-		<widget source="ServiceEvent" render="Label" position="45,390" size="62,22" transparent="1" foregroundColor="foreground" font="Regular;19" halign="right">
+		<widget source="ServiceEvent" render="Label" position="20,367" size="62,22" transparent="1" foregroundColor="foreground" font="Regular;19">
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText"/>
 		</widget>
-		<widget source="ServiceEvent" render="Label" position="310,390" size="62,22" transparent="1" foregroundColor="foreground" font="Regular;19">
+		<widget source="ServiceEvent" render="Label" position="408,367" size="62,22" transparent="1" foregroundColor="foreground" font="Regular;19" halign="right">
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText"/>
 		</widget>
-		<widget source="ServiceEvent" render="Progress" pixmap="PLi-HD-FullNight/window/progress.png" position="115,395" size="190,12" transparent="1" borderWidth="1" borderColor="darkgrey">
+		<widget source="ServiceEvent" render="Progress" pixmap="PLi-HD-FullNight/window/progress.png" position="90,372" size="310,12" transparent="1" borderWidth="1" borderColor="darkgrey">
 			<convert type="EventTime">Progress</convert>
+		</widget>
+		<widget source="ServiceEvent" render="Label" position="20,390" size="440,30" transparent="1" foregroundColor="secondFG" noWrap="1" font="Regular;21">
+			<convert type="EventName">Name</convert>
 		</widget>
 		<widget source="ServiceEvent" render="Label" position="20,420" size="490,210" foregroundColor="grey" transparent="1" font="Regular; 20">
 			<convert type="EventName">FullDescription</convert>
