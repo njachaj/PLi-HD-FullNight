@@ -620,7 +620,7 @@
 		<panel name="KeyMenuInfoTemplate"/>
 		<widget name="list" position="500,98" size="770,560" itemHeight="28" picServiceEventProgressbar="PLi-HD-FullNight/window/progress.png" progressbarBorderWidth="1"  progressbarHeight="10" colorEventProgressbarBorder="darkgrey" colorEventProgressbarBorderSelected="darkgrey" colorServiceDescription="yellowsoft" transparent="1" serviceNumberFont="Regular;22" scrollbarMode="showOnDemand" serviceInfoFont="Regular;20" serviceNameFont="Regular;22" serviceItemHeight="28" foregroundColorServiceNotAvail="#656565" backgroundColorMarked="#656565" colorServiceDescriptionFallback="yellowsoft" colorServiceDescriptionSelectedFallback="yellowsoft" colorFallbackItem="#aaaaaa" colorServiceSelectedFallback="yellowsoft" />
 		<widget source="ServiceEvent" render="Label" position="20,345" size="440,22" foregroundColor="transponderinfo" font="Regular;19" valign="center" halign="left" transparent="1" zPosition="1">
-			<convert type="ServiceName">TransponderInfo</convert>
+			<convert type="TransponderInfo">detailed_satpos</convert>
 		</widget>
 		<widget source="ServiceEvent" render="Label" position="20,367" size="62,22" transparent="1" foregroundColor="foreground" font="Regular;19">
 			<convert type="EventTime">StartTime</convert>
