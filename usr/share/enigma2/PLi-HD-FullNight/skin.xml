@@ -1248,14 +1248,6 @@
 		<widget name="logentry" position="45,386" size="1135,225" font="Regular;24"/>
 	</screen>
 
-	<screen name="TimerSanityConflict" position="fill" title="Timer sanity error" flags="wfNoBorder">
-		<panel name="PigTemplate"/>
-		<panel name="ButtonTemplate_4"/>
-		<widget name="list" position="590,370" size="670,250" scrollbarMode="showOnDemand"/>
-		<widget name="timer1" position="85,365" size="485,260" scrollbarMode="showNever"/>
-		<widget name="timer2" position="590,110" size="670,250" scrollbarMode="showNever"/>
-	</screen>
-
 	<screen name="TimerSelection" position="fill" title="Timer selection" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<widget name="timerlist" position="590,110" size="670,500" scrollbarMode="showOnDemand"/>
