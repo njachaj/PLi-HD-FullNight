@@ -1272,7 +1272,6 @@
 
 	<screen name="ServiceInfoSimple" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
-		<eLabel text="Serviceinfo" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
 		<widget name="infolist" position="530,110" size="740,500" selectionDisabled="1"/>
 	</screen>
 
@@ -1514,7 +1513,6 @@
 	<screen name="AdapterSetupConfiguration" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="ButtonTemplate_RS"/>
-		<eLabel text="Network Configuration" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
 		<widget name="menulist" position="530,110" size="740,280" itemHeight="28" zPosition="10" scrollbarMode="showOnDemand"/>
 		<widget source="description" render="Label" position="530,365" size="740,200" transparent="1" font="Regular;21" valign="center" halign="center"/>
 		<widget source="IFtext" render="Label" position="800,587" size="165,25" transparent="1" zPosition="10" font="Regular;21" halign="right"/>
@@ -1527,7 +1525,6 @@
 		<panel name="PigTemplate"/>
 		<panel name="ButtonTemplate_RBS"/>
 		<panel name="KeyTextTemplate"/>
-		<eLabel text="Network Setup" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
 		<widget name="config" position="530,110" size="740,256" itemHeight="32" scrollbarMode="showOnDemand"/>
 		<widget source="DNS1text" render="Label" position="835,450" size="150,25" transparent="1" zPosition="1" foregroundColor="grey" font="Regular;21" valign="left"/>
 		<widget source="DNS2text" render="Label" position="835,480" size="150,25" transparent="1" zPosition="1" foregroundColor="grey" font="Regular;21" valign="left"/>
@@ -1550,7 +1547,6 @@
 	<screen name="NameserverSetup" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="ButtonTemplate_RGYS"/>
-		<eLabel text="Nameserver Setup" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
 		<widget name="config" position="530,110" size="740,450" itemHeight="28" scrollbarMode="showOnDemand"/>
 		<widget source="introduction" render="Label" position="530,590" size="740,25" transparent="1" zPosition="10" font="Regular;21" valign="center" halign="center"/>
 	</screen>
@@ -1558,7 +1554,6 @@
 	<screen name="NetworkAdapterSelection" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
 		<panel name="ButtonTemplate_RGYS"/>
-		<eLabel text="Select Network Adapter" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
 		<widget source="list" render="Listbox" position="530,110" size="740,280" zPosition="10" scrollbarMode="showOnDemand">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -2034,7 +2029,6 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 
 	<screen name="SkinSelector" position="fill" flags="wfNoBorder">
 		<panel name="SelectionTemplate"/>
-		<eLabel text="Choose your Skin" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
 		<widget name="Preview" position="100,380" size="385,215" alphatest="on"/>
 		<widget name="SkinList" position="530,110" size="740,500" scrollbarMode="showOnDemand"/>
 		<widget source="introduction" render="Label" position="590,590" size="670,27" backgroundColor="darkgrey" shadowColor="black" shadowOffset="-2,-2" zPosition="1" transparent="1" font="Regular;24" halign="center"/>
