@@ -679,9 +679,6 @@
 		<panel name="SelectionTemplate"/>
 		<panel name="ButtonTemplate_4"/>
 		<panel name="KeyInfoTemplate"/>
-		<widget source="Service" render="Label" position="25,30" size="1085,55" zPosition="1" transparent="1" font="Regular;22" valign="center">
-			<convert type="ServiceName">Name</convert>
-		</widget>
 		<widget name="list" position="530,98" size="740,566" font="Regular;20" itemHeight="27" transparent="1" scrollbarMode="showOnDemand"/>
 		<widget source="Event" render="Label" position="20,370" size="450,30" transparent="1" zPosition="1" foregroundColor="blue" font="Regular;21">
 			<convert type="EventName">Genre</convert>
