@@ -484,6 +484,10 @@
 			<convert type="ServiceInfo">IsHD</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
+		<widget source="session.CurrentService" render="Pixmap" pixmap="PLi-HD-FullNight/infobar/ico_format_4k.png" position="1055,588" size="40,21" zPosition="4" alphatest="on">
+			<convert type="ServiceInfo">Is4K</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
 		<widget source="session.CurrentService" render="Pixmap" pixmap="PLi-HD-FullNight/infobar/ico_txt_on.png" position="1018,588" size="33,21" zPosition="2" alphatest="on">
 			<convert type="ServiceInfo">HasTelext</convert>
 			<convert type="ConditionalShowHide"/>
@@ -577,6 +581,10 @@
 		<panel name="PlayerTemplate"/>
 		<widget source="session.CurrentService" render="Pixmap" pixmap="PLi-HD-FullNight/infobar/ico_dolby_on.png" position="1078,70" size="33,21" zPosition="2" alphatest="on">
 			<convert type="ServiceInfo">IsMultichannel</convert>
+			<convert type="ConditionalShowHide"/>
+		</widget>
+		<widget source="session.CurrentService" render="Pixmap" pixmap="PLi-HD-FullNight/infobar/ico_format_4k.png" position="1112,70" size="40,21" zPosition="4" alphatest="on">
+			<convert type="ServiceInfo">Is4K</convert>
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<widget source="session.CurrentService" render="Pixmap" pixmap="PLi-HD-FullNight/infobar/ico_format_hd.png" position="1112,70" size="40,21" zPosition="4" alphatest="on">
