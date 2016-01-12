@@ -888,7 +888,6 @@
 
 	<screen name="ScanSimple" position="fill" flags="wfNoBorder">
 		<panel name="PigTemplate"/>
-		<widget name="header" position="25,30" size="1085,55" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;24" valign="center"/>
 		<widget name="config" position="530,110" size="740,525" scrollbarMode="showOnDemand"/>
 		<widget name="footer" position="45,380" size="417,75" font="Regular;20" halign="center"/>
 		<panel name="ButtonRed"/>
