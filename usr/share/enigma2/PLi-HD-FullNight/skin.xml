@@ -3479,7 +3479,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y() + (or
 		<widget name="3" pixmaps="skin_default/buttons/button_blue_off.png,PLi-HD-FullNight/buttons/blue2.png" position="610,188" zPosition="10" size="15,16" transparent="1" alphatest="on"/>
 		<widget name="4" pixmaps="skin_default/buttons/button_blue_off.png,PLi-HD-FullNight/buttons/blue2.png" position="610,213" zPosition="10" size="15,16" transparent="1" alphatest="on"/>
 		<widget name="5" pixmaps="skin_default/buttons/button_blue_off.png,PLi-HD-FullNight/buttons/blue2.png" position="610,238" zPosition="10" size="15,16" transparent="1" alphatest="on"/>
-		<widget name="6" pixmaps="skin_default/buttons/button_green_off.png,PLi-HD-FullNight/buttonsgreen2.png" position="610,263" zPosition="10" size="15,16" transparent="1" alphatest="on"/>
+		<widget name="6" pixmaps="skin_default/buttons/button_green_off.png,PLi-HD-FullNight/buttons/green2.png" position="610,263" zPosition="10" size="15,16" transparent="1" alphatest="on"/>
 	</screen>
 
 	<!-- SetPicon -->
