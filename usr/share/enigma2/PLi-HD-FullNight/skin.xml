@@ -703,10 +703,10 @@
 		<panel name="SelectionTemplate"/>
 		<panel name="ButtonTemplate_4"/>
 		<panel name="KeyMenuTemplate"/>
-		<widget name="datetime" position="530,98" size="150,30" transparent="1" font="Regular;21"/>
-		<widget name="channel" position="680,98" size="430,30" transparent="1" font="Regular;21" halign="center"/>
+                <widget name="datetime" position="520,98" size="210,47" halign="left" foregroundColor="yellow" transparent="1" font="Regular;20"/>
+		<widget name="channel" position="730,98" size="380,30"  transparent="1"  font="Regular;21" halign="center"/>
 		<widget name="duration" position="1110,98" size="150,30" transparent="1" font="Regular;21" halign="right"/>
-		<widget name="epg_description" position="530,145" size="740,520" foregroundColor="grey" transparent="1" font="Regular;21"/>
+		<widget name="epg_description" position="520,145" size="750,520" foregroundColor="grey" transparent="1" font="Regular;21"/>
 		<widget source="Event" render="Label" position="20,370" size="450,30" transparent="1" zPosition="1" foregroundColor="blue" font="Regular;21">
 			<convert type="EventName">Genre</convert>
 		</widget>
